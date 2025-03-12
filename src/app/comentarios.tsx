@@ -1,6 +1,6 @@
 import { View, StyleSheet, ScrollView, ImageBackground } from "react-native";
 
-import Comment from "../../components/comment/index";
+import Comment from "../components/comment/index";
 const CommentsArea = () => {
   return (
     <View style={styles.container}>

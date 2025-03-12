@@ -1,8 +1,8 @@
 import { View, StyleSheet, Text, ScrollView } from "react-native";
-import LittleLemonHeaderfrom from "../../../components/Header";
+import LittleLemonHeaderfrom from "../../components/Header";
 import { useState, useEffect } from "react";
-import InputForms from "../../../components/input";
-import Button from "../../../components/button";
+import InputForms from "../../components/input";
+import Button from "../../components/button";
 
 function Home() {
   const [name, setName] = useState("");

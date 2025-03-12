@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
-import Button from "../../components/button/index";
+import Button from "../components/button/index";
 
 export default function Sigin() {
   const { name, password } = useLocalSearchParams();
